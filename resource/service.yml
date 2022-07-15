@@ -15,7 +15,7 @@ spec:
         app: personapp
     spec:
       containers:
-      - image: sanjitguin/repo:JENKINS-69_main_a87095d271a1ef77383741e953ada42f3d8e2a25
+      - image: ubuntu
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
