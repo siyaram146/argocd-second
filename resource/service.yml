@@ -15,8 +15,7 @@ spec:
         app: personapp
     spec:
       containers:
-      - image: ubuntu
-        imagePullPolicy: IfNotPresent
+      - image: nginx
         ports:
         - containerPort: 8080
         name: personapp
